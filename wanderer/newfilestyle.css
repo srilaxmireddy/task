@@ -1,0 +1,185 @@
+
+			.dropdownimage{
+				position:relative;
+			}
+			.center{
+				position:absolute;
+				top:50%;
+				width:100%;
+				text-align: center;
+				font-size:40px;
+				left:0;
+				
+			}
+			.image{
+				width: 100% !important;
+			    height: 669px !important;
+			    background: url(liht.jpg);
+		        background-repeat: no-repeat;
+		        background-size: contain;
+		        background-size: 100% 100%;
+		        opacity: 1;
+    			font-size:40px;
+				font-family:Lucida Handwriting;
+				text-align: center;
+				color:white;
+
+    		}			
+			.header{
+				background-color:maroon;
+				height:60px;
+				width:80%;
+				padding: 0 10%;
+			}
+			.innerheader{
+				background-color:black;
+				height:40px;
+				width:80%;
+				padding: 0 10%;
+			}
+			ul{
+				list-style-type: none;
+				margin:0px;
+				padding:0px;
+				overflow:hidden;
+			}
+			li{
+				float:left;
+				font-size:20px;
+			}
+			li a{
+				text-decoration:none;
+				display:block;
+				text-align:center;
+				padding:12px 16px;
+				color:white;
+			}
+			li a:hover {
+				background-color:pink;
+				padding:5px 10px;
+			}
+			.dropdown {
+			    display: inline-block;
+			    cursor: pointer;
+			    position:relative;
+			}
+
+			.bar1, .bar2, .bar3 {
+			    width: 36px;
+			    height: 8px;
+			    background-color:white;
+			    margin: 2px 0;
+			    transition: 0.4s;
+			}
+
+			.change .bar1 {
+			    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+			    transform: rotate(-45deg) translate(-9px, 6px) ;
+			}
+
+			.change .bar2 {opacity: 1;}
+
+			.change .bar3 {
+			    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+			    transform: rotate(45deg) translate(-8px, -8px) ;
+			}
+
+			.dropdown-content {
+			    display: none;
+			    position: absolute;
+			    background-color: #f9f9f9;
+			    min-width: 160px;
+			    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			}
+
+			.dropdown-content a {
+			    color: black;
+			    padding: 12px 16px;
+			    text-decoration: none;
+			    display: block;
+			    font-size:15px;
+			}
+
+			.dropdown-content a:hover {background-color: #3CBC8D}
+
+			.dropdown:hover .dropdown-content {
+    			display: block;
+			}
+
+			.left{
+				float:left;
+				margin-left:0px;
+				position:absolute;
+				width:0.5%;
+			}
+			.chip {
+			    display: inline-block;
+			    padding: 0 25px;
+			    height: 50px;
+			    font-size: 5px;
+			    line-height: 50px;
+			    border-radius: 25px;
+			    
+			}
+
+			.chip img {
+			    float: left;
+			    margin: 0 10px 0 -25px;
+			    height: 50px;
+			    width: 50px;
+			    border-radius: 50%;
+			}
+			.rightside{
+				
+	            width: 30% !important;
+	            float: right !important;
+			}
+			.right{
+				float:right;
+				margin-right:0px;
+				position:absolute;
+			}
+			.heading{
+				text-align: center;
+				font-family: Lucida Handwriting;
+				font-size:60px;
+				color:black;
+			}
+			.img{
+				margin:5px;
+				float:left;
+				width:250px;
+				padding:20px;
+				
+			}
+			.img img{
+				width:100%;
+				height: auto;
+				border-radius:10px;
+			}
+			.img:hover {
+    			border: 1px solid black;
+			}
+			.image1{
+				background-color: #3CBC80;
+				width: 100% !important;
+			    height: 569px !important;
+			    background: url(gj.jpg);
+		        background-repeat: no-repeat;
+		        background-size: contain;
+		        background-size: 100% 100%;
+		       
+    			font-size:40px;
+				font-family:Lucida Handwriting;
+				text-align: center;
+				color:white;
+			}
+			.footer {
+			    background-color:black;
+			    color:white;
+			    clear:both;
+			    text-align: center;
+			   padding:5px;
+
+			}
+		
